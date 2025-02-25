@@ -20,7 +20,7 @@ const Lists = () => {
                         Brainstorm,note,plan,and get more with AI.
                     </div>
                     <Button className='btn'>
-                        Start today for free
+                       <span>Start today for free</span>
                     </Button>
                 </div>
                 <div className='content'>

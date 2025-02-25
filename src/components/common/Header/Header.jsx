@@ -110,7 +110,7 @@ const Wrapper = styled.div`
 
   .container-download {
     display: flex;
-    gap: 20px;
+    gap: 5px;
     align-items: center;
   }
 
@@ -173,6 +173,7 @@ const Wrapper = styled.div`
   .logo-img {
     width: 30px;
     height: 30px;
+    margin-bottom: 5px;
   }
 
   .logo {
@@ -243,6 +244,12 @@ const Wrapper = styled.div`
     }
     
     
+  }
+  @media(max-width: 375px){
+    .container{
+      padding: 10px;
+      align-items: center;
+    }
   }
 `;
 

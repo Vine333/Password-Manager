@@ -69,7 +69,7 @@ const Wrapper = styled.div`
     margin: 0 auto;
     max-width: 1050px;
     display: flex;
-    padding: 40px 20px 40px 40px;
+    padding: 40px 0;
     justify-content: space-between;
     
   }
@@ -216,8 +216,9 @@ color: #F866DA;
      flex-direction: column;
      display: flex;
      justify-content: center;
-     align-items: center;
+     align-items: flex-start;
      gap: 40px;
+     width: auto;
    
     
    }
@@ -228,7 +229,7 @@ color: #F866DA;
     .app-social{
       order: 3;
      
-      gap: 40%;  
+      gap: 77%;  
     }
     .col{
       width: 50%;
@@ -237,12 +238,20 @@ color: #F866DA;
      }
       
     }
-    
+    .container{
+      padding: 0;
+    }
     .company-empty{
       order: 1;
-      gap: 40%;
+      gap: 60%;
+      justify-content: normal;
+    }
+    .app-social{
+      justify-content: normal;
+      
     }
   }
+
   @media(max-width: 425px){
     .container{
       width: 100%;
@@ -260,6 +269,10 @@ color: #F866DA;
       width: auto;
     }
   }
- 
+ @media(max-width: 375px){
+   .container{
+     padding: 30px 10px 0px 10px;
+   }
+ }
 `
 export default Footer;

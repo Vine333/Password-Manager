@@ -18,7 +18,7 @@ export const Wrapper = styled.div`
     max-width: 1500px;
     min-height: 100px;
     display: flex;
-    gap: 50px;
+    gap: 100px;
     z-index: 0;
   }
 
@@ -31,6 +31,7 @@ export const Wrapper = styled.div`
     justify-content: center;
     align-items: flex-start;
     width: 428px;
+    margin-bottom: 5%;
     max-width: 540px;
     min-height: 100px;
     padding-left: 50px;
@@ -41,24 +42,7 @@ export const Wrapper = styled.div`
     display: none;
   }
     
-  .btn{
-     width: 216px;
-      height: 50px;
-      border-radius: 60px;
-      transition: all .2s;
-      color: var(--text-color);
-      background: #ff3a27;
-      border: none;
-      font-weight: 700;
-      font-size:20px ;
-      padding: 10px 25px;
-    &:hover{
-      scale: 105%;
-      color: var(--text-color) !important;
-      background: #ff3a27 !important;
-      border: none !important;
-    }
-    }
+  
    
   .descript{
     color: #ffffff59;
@@ -66,7 +50,8 @@ export const Wrapper = styled.div`
     width: 100%;
     max-width: 310px;
     margin-bottom: 5px;
-    padding-left: 0;
+    
+    padding-left: 5px;
     font-size: 24px;
     font-weight: 600;
     line-height: 28px;
@@ -76,10 +61,12 @@ export const Wrapper = styled.div`
     letter-spacing: -1px;
     color:#ff3a27;
     z-index: 300;
-    font-size: 80px;
+    font-size: 90px;
     font-weight: 700;
-    line-height: 72px;
+    line-height: 85px;
    width: 100%;
+    text-align: left;
+    margin: 0;
   }
 .block{
   position: relative;
@@ -90,7 +77,7 @@ export const Wrapper = styled.div`
     background-image: none;
     background-repeat: repeat;
     background-size: auto;
-    font-weight: 600;
+    font-weight: 700;
     height: 87px;
     font-family: Inter,sans-serif;
   }
@@ -128,7 +115,7 @@ export const Wrapper = styled.div`
     
     margin-bottom: -5px;
     display: block;
-    height: 840px;
+    height: 760px;
   }
 
   .reels {
@@ -169,6 +156,9 @@ source {
     .content{
       width:100%;
     }
+    .descriptions{
+      padding: 0;
+    }
   }
 @media(max-width: 425px){
   margin: 0 auto;
@@ -189,9 +179,6 @@ source {
   .stars{
     width: 250px;
   }
-  .btn{
-    margin-left: 18%;
-  }
   .content{
     display: none;
   }
@@ -199,7 +186,6 @@ source {
     display: block !important;
     z-index: -100;
     flex: none;
-     padding: 15px;
     min-height: 100px;
   }
   .video-wrapper-mobil{
@@ -237,7 +223,7 @@ source {
     .container{
       justify-content: flex-start;
       align-items: center;
-      width: 95%;
+      width: 100%;
       min-height: auto;
       margin-bottom: 0;
       padding-top: 0;
@@ -247,17 +233,17 @@ source {
       display: flex;
       overflow: hidden;
     }
+   
     .descriptions{
-      padding-left: 20px;
+    width: 355px;
     }
-    
   }
   @media(max-width:320px){
     .header{
       width: 320px;
     }
     .descriptions{
-      padding-left: 20px;
+      padding-left: 25px;
     }
   }
 `
