@@ -7,6 +7,9 @@ import Task from "../../components/common/HomePage/Task/Task.jsx";
 import TabsVideo from "../../components/common/HomePage/TabsVideo/TabsVideo.jsx";
 import SuperChanger from "../../components/common/HomePage/SuperChanger/SuperChanger.jsx";
 import Card from "../../components/common/HomePage/Card/Card.jsx";
+import Make from "../../components/common/HomePage/MakeAI/Make.jsx";
+import Pricing from "../../components/common/HomePage/Pricing/Pricing.jsx";
+import Download from "../../components/common/HomePage/Download/Download.jsx";
 
 
 const HomePage = () => {
@@ -21,6 +24,9 @@ const HomePage = () => {
                 <TabsVideo/>
                 <SuperChanger/>
                 <Card/>
+                <Make/>
+                <Pricing/>
+                <Download/>
             </Wrapper>
         </AppLayout>
     );

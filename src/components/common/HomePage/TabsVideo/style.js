@@ -77,6 +77,7 @@ width: 100%;
     }
   }
   @media(max-width: 768px){
+    
     .video{
       width: 280px;
       height: 205px;
@@ -105,6 +106,9 @@ width: 100%;
   @media(max-width: 320px){
     .container{
       width: 310px;
+    }
+    .ant-tabs-tabpane{
+      padding: 10px !important;
     }
   }
 `
