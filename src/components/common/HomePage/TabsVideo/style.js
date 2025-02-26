@@ -75,15 +75,22 @@ width: 100%;
       width: 367px;
      height: auto;
     }
+    .video-container{
+      padding-top: 30px;
+      margin-top: 10px;
+      width: 500px;
+    }
   }
   @media(max-width: 768px){
-    
+    .ant-tabs-tabpane{
+      padding-left: 0 !important;
+    }
     .video{
       width: 280px;
       height: 205px;
     }
     .video-container{
-      width: 280px;
+      width: 280px ;
       height: 205px;
       margin: 0;
     }
@@ -98,6 +105,9 @@ width: 100%;
     }
   }
   @media(max-width: 425px){
+    .ant-tabs-tabpane{
+      padding-left: 24px !important;
+    }
     .container{
       width: 360px;
     }
